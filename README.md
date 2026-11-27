@@ -2,7 +2,9 @@ E-commerce Sales & Profitability Analysis
 
 Project Overview
 
-This project analyzes e-commerce sales data using SQL to understand revenue, profitability, product performance, and customer purchasing behavior.
+This project focuses on analyzing e-commerce sales data using PostgreSQL to evaluate revenue, profitability, product performance, and customer purchasing behavior.
+
+The objective is to extract meaningful business insights that can help understand sales performance and customer trends.
 
 Tools Used
 
@@ -14,7 +16,7 @@ SQL
 
 Dataset
 
-The project contains five CSV files:
+The project uses a synthetic e-commerce dataset containing:
 
 Customers
 
@@ -24,11 +26,11 @@ Orders
 
 Order Items
 
-Data Cleaning
+Data Cleaning & Quality Checks
 
-Removed duplicate customer records.
+Identified and removed duplicate customer records.
 
-Identified missing email values.
+Identified missing customer email values.
 
 Identified zero-quantity order items.
 
@@ -36,23 +38,41 @@ Checked invalid discount values.
 
 Verified missing order dates.
 
+Checked duplicate order records.
+
 SQL Analysis
 
-Total revenue and units sold
+Total revenue and units sold.
 
-Category-wise revenue and profit
+Category-wise revenue analysis.
 
-Monthly sales trends
+Category-wise profitability analysis.
 
-Top-performing products
+Monthly sales trends.
 
-Customer purchase analysis
+Top 10 product analysis.
+
+Customer purchasing and spending analysis.
+
+Sales channel performance.
 
 Key Business Insights
 
 Office category generated the highest revenue.
 
 Home category generated the lowest revenue.
+
+Sales and profitability were analyzed across product categories.
+
+Top-performing products and high-value customers were identified.
+
+Project Files
+
+Ecommerce_SQL_Project_Dataset.zip – Dataset files.
+
+ecommerce_analysis.sql – SQL queries and analysis.
+
+README.md – Project documentation.
 
 Project Note
 
